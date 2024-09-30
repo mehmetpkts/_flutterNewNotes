@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:second_app/101/statefull_life_cycle_learn.dart';
+import 'package:second_app/101/text_field_learn.dart';
 
 
 void main() {
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       debugShowCheckedModeBanner: false,
-      home: const StatefullLifeCycleLearnWidget(message: "Meehmetttt"),
+      home: const TextFieldLearnView(),
     );
   }
 }
